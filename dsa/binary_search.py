@@ -13,10 +13,11 @@ def binary_search(nums, target):
         print("left :", left)
         print("right:", right)
 
+        print(f"Calculating mid = ({left} + {right}) // 2")
         mid = (left + right) // 2
 
         print("mid  :", mid)
-        print("Value at mid:", nums[mid])
+        print("Value at mid:", nums[mid]) # 9
 
         if nums[mid] == target:
             print("Target Found!")
@@ -35,11 +36,9 @@ def binary_search(nums, target):
             right = mid - 1
 
     print("Target not found.")
+    # return the integer -1 as a special 'not found' signal," not "return the element at index -1.
     return -1
 
-
 nums = [2, 5, 7, 9, 13, 18, 22, 30]
-
-result = binary_search(nums, 18)
-
+result = binary_search(nums, 5)
 print("\nReturned Index:", result)
