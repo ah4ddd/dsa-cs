@@ -1,4 +1,7 @@
-class Solution: # mine
+# 1929. Concatenation of Array
+
+# mine
+class Solution:
     def getConcatenation(self, nums):
         n = len(nums)
         ans = [0]*(n*2)
@@ -21,6 +24,9 @@ def concatenation(nums):
     ans = []
     for i in range(2):
         for n in nums:
-            ans.append(n)
+            ans.append(n) # adds one object to the end of the list
 
     return ans
+
+print(concatenation(array))
+
