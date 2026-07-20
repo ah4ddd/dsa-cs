@@ -1,5 +1,4 @@
 # 217. Contains Duplicate
-
 class Solution:
     def containsDuplicate(self, nums):
         seen = set()
@@ -31,3 +30,12 @@ print(sol.containsDuplicate(array1))  # True
 print(sol.containsDuplicate(array2))  # False
 print(sol.containsDuplicate(array3))  # True
 print(sol.containsDuplicate(array4))  # True
+
+
+"""
+We create an empty set called seen to keep track of numbers we've already encountered.
+Then we iterate through the array one element at a time. For each number,
+we first check whether it already exists in seen. If it does, we've found a duplicate,
+so we immediately return True. If it doesn't, we add it to seen and continue.
+If we finish iterating through the entire array without finding any duplicates, we return False.
+"""
