@@ -1,4 +1,4 @@
-class Solution:
+class Solution: # mine
     def getConcatenation(self, nums):
         n = len(nums)
         ans = [0]*(n*2)
@@ -14,3 +14,13 @@ array = [1, 2, 1, 2]
 
 result = sol.getConcatenation(array)
 print(result)
+
+
+# neetcode
+def concatenation(nums):
+    ans = []
+    for i in range(2):
+        for n in nums:
+            ans.append(n)
+
+    return ans
