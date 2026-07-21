@@ -54,3 +54,5 @@ def hasDuplicate(nums) -> bool:
         return len(set(nums)) < len(nums)
 
 print(hasDuplicate(array2))
+print(hasDuplicate(array1))
+print(hasDuplicate(array5))
