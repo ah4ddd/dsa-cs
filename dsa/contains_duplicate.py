@@ -25,6 +25,11 @@ array3 = [1, 1, 1, 3, 3, 4, 3, 2, 4, 2]
 array4 = [10, 20, 30, 40, 20, 50]
 # Expected: True
 
+# Test Case 5
+array5 = [23, 55, 56, 60, 89, 1000]
+# Expected: False
+
+
 sol = Solution()
 
 print(sol.containsDuplicate(array1))  # True
