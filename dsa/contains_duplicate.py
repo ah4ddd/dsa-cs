@@ -1,4 +1,5 @@
 # 217. Contains Duplicate
+
 class Solution:
     def containsDuplicate(self, nums):
         seen = set()
@@ -41,3 +42,10 @@ If we finish iterating through the entire array without finding any duplicates, 
 
 # Time Complexity O(n)
 # Space Complexity = O(n)
+
+
+# neetcode
+def hasDuplicate(nums) -> bool:
+        return len(set(nums)) < len(nums)
+
+print(hasDuplicate(array2))
