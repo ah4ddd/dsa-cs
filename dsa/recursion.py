@@ -11,3 +11,18 @@ def count(n):
     count(n+1)
 
 count(1)
+
+
+print()
+
+
+def countdown(n):
+
+    # BASE CASE
+    if n == 0:
+        return
+
+    print(n)
+
+    # RECURSIVE CASE
+    countdown(n - 1)
