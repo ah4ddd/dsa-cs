@@ -26,3 +26,6 @@ def countdown(n):
 
     # RECURSIVE CASE
     countdown(n - 1)
+
+# The function has reached the end of its code,
+# so Python removes it from the call stack and returns to the previous function.
