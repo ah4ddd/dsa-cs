@@ -94,7 +94,7 @@ def merge(left, right):
 
 
 # Original unsorted list.
-nums = [8, 3, 5, 4, 9, 15, 18, 20]
+nums = [8, 3, 5, 4]
 
 # Start Merge Sort.
 # The function will recursively split,
