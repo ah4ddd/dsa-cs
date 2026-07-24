@@ -102,5 +102,4 @@ nums = [8, 3, 5, 4]
 # then recursively merge.
 answer = merge_sort(nums)
 
-# Print the final sorted list.
 print(answer)
