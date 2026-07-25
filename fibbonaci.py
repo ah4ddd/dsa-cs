@@ -1,4 +1,4 @@
-def fibbonaci(n):
+def fibonacci(n):
     a = 0
     b = 1
 
@@ -9,7 +9,7 @@ def fibbonaci(n):
         a = b
         b = temp
 
-fibbonaci(10)
+fibonacci(10)
 
 """
 iterations:
