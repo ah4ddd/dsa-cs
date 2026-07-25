@@ -6,7 +6,6 @@ for _ in range(5):
         a = a + b
     else:
         b = b + a
-
     print(a, b)
 
 
