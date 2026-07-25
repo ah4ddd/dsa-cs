@@ -1,25 +1,25 @@
-a = 1
-b = 2
+a = 3
+b = 5
 
-for _ in range(6):
-    if a < b:
+for _ in range(5):
+    if a % 2 == 0:
         a = a + b
     else:
-        b = a - b
+        b = b + a
 
     print(a, b)
 
+
 """
 Iterations:
-3 2
 
-3 1
+3 8
 
-3 2
+3 11
 
-3 1
+3 14
 
-3 2
+3 17
 
-3 1
+3 20
 """
