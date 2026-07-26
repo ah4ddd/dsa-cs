@@ -9,7 +9,7 @@ def fibonacci(n):
         a = b
         b = temp
 
-fibonacci(101)
+fibonacci(11)
 
 """
 iterations:
