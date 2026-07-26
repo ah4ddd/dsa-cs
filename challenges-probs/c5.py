@@ -1,12 +1,15 @@
-numbers = [12, 7, 25, 3, 41, 18, 29]
-
 def get_largest(nums):
-    largest = 0
+    if not nums:
+        return None
 
-    for n in nums:
+    largest = nums[0]
+
+    for n in nums[1:]:
         if n > largest:
             largest = n
 
     print(f"Largest: {largest}")
+
+numbers = [-12, -7, -3, -25]
 
 get_largest(numbers)
