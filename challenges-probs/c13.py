@@ -1,5 +1,6 @@
 # Challenge 13 — Two Sum
 
+# solution 1 O(n²)
 numbers = [2, 7, 11, 15]
 target = 18
 
@@ -18,7 +19,8 @@ result = two_sum(numbers, target)
 print(f"sum: {result}")
 
 
-# soluton 2
+
+# soluton 2 O(n)
 def two_sum_two(nums, target):
     seen = {}
     for i, num in enumerate(nums):
@@ -29,6 +31,8 @@ def two_sum_two(nums, target):
             return seen[needed], i
 
         seen[num] = i
+
+    return None
 
 result = two_sum_two(numbers, 17)
 
