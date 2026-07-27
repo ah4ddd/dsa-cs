@@ -1,16 +1,35 @@
 # Challenge 13 — Two Sum
 
 numbers = [2, 7, 11, 15]
-target = 17
+target = 18
 
 def two_sum(nums, target):
-    n = len(nums)-1
+
+    n = len(nums)
     for i in range(n):
-        if nums[i] + nums[i+1] == target:
-            return i, i+1
+        for j in range(i + 1, n):
+            if nums[i] + nums[j] == target:
+                return i, j
 
     return None
 
 result = two_sum(numbers, target)
+
+print(f"sum: {result}")
+
+
+# soluton 2
+def two_sum_two(nums, target):
+    seen = {}
+    for i, num in enumerate(nums):
+
+        needed = target - num
+
+        if needed in seen:
+            return seen[needed], i
+
+        seen[num] = i
+
+result = two_sum_two(numbers, 17)
 
 print(f"sum: {result}")
