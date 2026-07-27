@@ -1,4 +1,4 @@
-# Challenge 14 — Find the Second Largest Number
+# Challenge 14 — Find the Second Largest distinct Number
 
 numbers = [12, 65, 70, 7, 40, 40, 75, 42, 8, 90, 98, 98]
 
@@ -22,88 +22,97 @@ print(result)
 
 
 """
-START
+# Become second largest only if you're:
+# bigger than the current second largest
+# and smaller than the current largest.
 
-largest = 12
-second  = 12
+Start
 
-        │
-        ▼
+🥇12
+🥈12
 
+      │
+      ▼
 65 arrives
 
-🥇 65
-🥈 12
+🥇65
+🥈12
 
-        │
-        ▼
-
+      │
+      ▼
 70 arrives
 
-🥇 70
-🥈 65
+🥇70
+🥈65
 
-        │
-        ▼
+      │
+      ▼
+7
 
-7 arrives
+❌ Too small
 
-Too small
+      │
+      ▼
+40
 
-🥇 70
-🥈 65
+❌ Too small
 
-        │
-        ▼
+      │
+      ▼
+40
 
-40 arrives
+❌ Too small
 
-Too small
+      │
+      ▼
+75
 
-🥇 70
-🥈 65
+🥇75
+🥈70
 
-        │
-        ▼
+      │
+      ▼
+42
 
-75 arrives
+❌ Too small
 
-🥇 75
-🥈 70
+      │
+      ▼
+8
 
-        │
-        ▼
+❌ Too small
 
-42 arrives
+      │
+      ▼
+90
 
-Too small
+🥇90
+🥈75
 
-🥇 75
-🥈 70
+      │
+      ▼
+98
 
-        │
-        ▼
+🥇98
+🥈90
 
-8 arrives
+      │
+      ▼
+98 (duplicate)
 
-Too small
+98 > 98 ?     ❌
 
-🥇 75
-🥈 70
+90 < 98 ?     ✅
 
-        │
-        ▼
+98 < 98 ?     ❌
 
-90 arrives
+Update cancelled.
 
-🥇 90
-🥈 75
+      │
+      ▼
 
-        │
-        ▼
+FINAL
 
-98 arrives
-
-🥇 98
-🥈 90
+🥇98
+🥈90
 """
