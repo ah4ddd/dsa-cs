@@ -13,6 +13,8 @@ numbers5 = [1, 1, 1, 100]
 
 numbers6 = [5, 5, 1, 1, 1]
 
+numbers7 = [0, 0, 0, 1]
+
 def get_majority_element(nums):
     major = {}
     highest_value = float("-inf")
@@ -33,6 +35,6 @@ def get_majority_element(nums):
 
     return major_key
 
-result = get_majority_element(numbers6)
+result = get_majority_element(numbers7)
 
 print(result)
