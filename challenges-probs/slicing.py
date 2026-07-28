@@ -19,3 +19,15 @@ letters[:-3] # means "start at the beginning, go up to 3rd from the end" = ['a',
 
 # Colon on the left ([:x]) -> "Start at the beginning" and go up until x.
 # Colon on the right ([x:]) -> "Start at x" and go all the way to the end.
+
+"""
+inclusive
+↓
+
+start
+
+exclusive
+↓
+
+end
+"""
