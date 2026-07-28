@@ -22,3 +22,17 @@ def rotate_right(nums, k):
 result = rotate_right(numbers, k)
 
 print(result)
+
+
+
+# solution 2 (slicing)
+def rotate_with_slice(nums, k):
+  if not nums:
+      return None
+  k = k % len(nums)
+
+  return nums[-k:] + nums[:-k]
+
+result2 = rotate_right(numbers, k)
+
+print(result)
