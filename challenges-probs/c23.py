@@ -32,7 +32,10 @@ print(r)
 
 
 
-# another wierd one idk
+s = "astronomer"
+t = "moonstarer"
+
+# slightly optimized
 def anagram(s, t):
 
     if len(s) != len(t):
