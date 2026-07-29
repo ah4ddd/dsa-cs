@@ -3,10 +3,12 @@
 nums = [2, 5, 8, 12, 16, 23, 38]
 target = 16
 
+# O(log n)
+
 def binary_search(nums, target):
     left = 0
     right = len(nums)-1
-
+    # As long as there is still somewhere to search...
     while left <= right:
         mid = (left+right) // 2
 
@@ -18,6 +20,8 @@ def binary_search(nums, target):
 
         elif nums[mid] > target:
             right = mid - 1
+
+    return -1
 
 
 r = binary_search(nums, target)
