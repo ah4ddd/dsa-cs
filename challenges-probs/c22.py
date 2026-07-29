@@ -1,18 +1,24 @@
-# Challenge 22 — Two Sum (Brute Force)
-# Revisiting Challenge 13
+# Challenge 22 — Binary Search
+
+nums = [2, 5, 8, 12, 16, 23, 38]
+target = 16
+
+def binary_search(nums, target):
+    left = 0
+    right = len(nums)-1
+
+    while left <= right:
+        mid = (left+right) // 2
+
+        if nums[mid] == target:
+            return mid
+
+        elif nums[mid] < target:
+            left = mid + 1
+
+        elif nums[mid] > target:
+            right = mid - 1
 
 
-nums = [5,1,9,8]
-target = 13
-
-def two_sums(nums, target):
-    for i in range(len(nums)):
-        for j in range(i + 1, len(nums)):
-            if nums[i] + nums[j] == target:
-                return i, j
-
-    return None
-
-r = two_sums(nums, target)
-
+r = binary_search(nums, target)
 print(r)

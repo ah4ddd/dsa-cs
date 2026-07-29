@@ -15,3 +15,16 @@ result2 = is_palindrome(numbers2)
 
 print(result)
 print(result2)
+
+
+# Revisiting Challenge 16
+def is_palindrome_text(text):
+    for i in range(len(text) //2):
+        if text[i] != text[-(i+1)]:
+            return False
+
+    return True
+
+
+r = is_palindrome_text("racecar")
+print(r)
