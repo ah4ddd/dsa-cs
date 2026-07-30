@@ -1,55 +1,5 @@
 # Challenge 24 — Best Time to Buy and Sell Stock
 
-# You're given the stock price for each day.
-# prices = [7, 1, 5, 3, 6, 4]
-
-
-"""
-Each number represents:
-
-Day 1 → 7
-Day 2 → 1
-Day 3 → 5
-Day 4 → 3
-Day 5 → 6
-Day 6 → 4
-
-You may:
-    Buy once
-    Sell once
-    You must buy before you sell
-
-Return the maximum profit.
-
-Example:
-    prices = [7,1,5,3,6,4]
-
-Best decision:
-    Buy at 1
-    Sell at 6
-
-Profit:
-    6 - 1 = 5
-
-Return
-    5
-
-Another Example
-    prices = [7,6,4,3,1]
-
-Prices only go down.
-
-There is no profitable trade.
-
-Return
-    0
-
-Not negative.
-
-Just don't trade.
-"""
-
-
 prices = [5, 8, 1, 4, 6, 3]
 
 
