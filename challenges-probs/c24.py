@@ -34,3 +34,21 @@ profit = max_profit(prices)
 
 print(profit)
 
+
+# soluion from leetcode
+
+prices = [3, 8, 1, 7, 6, 3]
+
+def maxProfit(prices):
+    buy = prices[0]
+    profit = 0
+    for i in range(1, len(prices)):
+        if prices[i] < buy:
+            buy = prices[i]
+        elif prices[i] - buy > profit:
+            profit = prices[i] - buy
+    return profit
+
+profit = maxProfit(prices)
+
+print(profit)
