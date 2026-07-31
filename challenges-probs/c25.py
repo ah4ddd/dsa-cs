@@ -22,15 +22,16 @@ def longest_consecutive(nums):
     count = 0
 
     for c in lc:
-
         if c - 1 in lc:
             count += 1
         elif c + 1 in lc:
             count += 1
 
-
     if count > 0:
         return count
+
+    elif len(lc) == 1:
+        return 1
 
     return 0
 
