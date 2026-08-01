@@ -17,6 +17,62 @@ nums = [9, 1, 4, 7, 3, -1, 0, 5, 8, -1, 6]
 nums = [5, 5, 4, 3, 2, 1]
 nums = [100, 101, 5, 6, 7, 8, 50]
 
+
+def longest_consecutive(nums):
+    num_set = set(nums)
+
+    longest = 0
+
+    for num in nums:
+        if num - 1 not in num_set:
+
+            length = 1
+
+            while num + length in num_set:
+                length += 1
+
+            if length > longest:
+                longest = length
+              # longest = max(longest, length) <<< works too
+
+    return longest
+
+
+result = longest_consecutive(nums)
+print(result)
+
+
+"""
+Walk through every number.
+
+↓
+
+Is this the beginning of a sequence?
+
+↓
+
+No?
+
+Ignore it.
+
+↓
+
+Yes?
+
+Walk forward until the sequence ends.
+
+↓
+
+Remember the length if it's the biggest one so far.
+
+↓
+
+Continue.
+"""
+
+
+# depreciated one
+"""
 def longest_consecutive(nums):
     lc = set(nums)
     count = 0
@@ -38,3 +94,4 @@ def longest_consecutive(nums):
 
 result = longest_consecutive(nums)
 print(result)
+"""
