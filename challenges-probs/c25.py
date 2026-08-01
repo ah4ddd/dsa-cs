@@ -9,6 +9,7 @@ def longest_consecutive(nums):
     longest = 0
 
     for num in num_set:
+        # We check n-1 because we want to know if this is the beginning of the sequence
         if num - 1 not in num_set:
 
             length = 1
