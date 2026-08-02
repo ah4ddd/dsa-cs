@@ -22,6 +22,7 @@ def top_k_frequent(nums, k):
         return count[key]
 # Take all the keys in the dictionary and sort them by their frequencies, highest first.
     return sorted(count, key=get_score, reverse=True)[:k]
+  # return sorted(count, key=lambda x: count[x], reverse=True)[:k] (works same)
 
 
 result = top_k_frequent(nums, k)
