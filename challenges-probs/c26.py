@@ -9,8 +9,10 @@ Expected output:
 ]
 """
 
+
 words = ["eat", "tea", "tan", "ate", "nat", "bat"]
 
+# O(k log k)  /  O(n × k log k)
 def group_anagrams(words):
     groups = {}
 
@@ -25,7 +27,6 @@ def group_anagrams(words):
 
 r = group_anagrams(words)
 print(r)
-
 
 
 
