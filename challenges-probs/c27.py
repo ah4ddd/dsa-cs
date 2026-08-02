@@ -27,3 +27,29 @@ def top_k_frequent(nums, k):
 
 result = top_k_frequent(nums, k)
 print(result)
+
+
+
+""" # bucket sort -- yet to learn
+def top_k_frequent(nums, k):
+
+    count = {}
+
+    for n in nums:
+        count[n] = count.get(n, 0) + 1
+
+    buckets = [[] for _ in range(len(nums) + 1)]
+
+    for num, freq in count.items():
+        buckets[freq].append(num)
+
+    result = []
+
+    for freq in range(len(buckets) - 1, 0, -1):
+
+        for num in buckets[freq]:
+            result.append(num)
+
+            if len(result) == k:
+                return result
+"""
