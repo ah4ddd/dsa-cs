@@ -19,7 +19,6 @@ result = two_sum(numbers, target)
 print(f"sum: {result}")
 
 
-
 # soluton 2 O(n)
 def two_sum_two(nums, target):
     seen = {}

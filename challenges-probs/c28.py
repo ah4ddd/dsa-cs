@@ -20,12 +20,12 @@ def decode(encoded):
         while encoded[j] != "#":
             j += 1
 
-            length = int(encoded[i:j])
+        length = int(encoded[i:j])
 
-            word = encoded[j + 1 : j + 1 + length]
-            decoded.append(word)
+        word = encoded[j + 1 : j + 1 + length]
+        decoded.append(word)
 
-            i = j + 1  + length
+        i = j + 1  + length
 
     return decoded
 
