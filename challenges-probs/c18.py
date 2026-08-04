@@ -3,20 +3,28 @@
 
 numbers = [1, 2, 4, 5]
 numbers = [1, 3, 4, 5]
-numbers = [2, 3, 1, 5]
-numbers = [4, 1, 2, 5]
+numbers = [2, 3, 1, 5, 6, 7, 8, 10]
+
 
 def get_missing_numbers(nums):
     missing = {}
+    answer = []
+    smallest = nums[0]
+    largest = nums[0]
+
 
     for n in nums:
-        missing[n] = True
+        missing[n] = 1
+        if n < smallest:
+            smallest = n
+        elif n > largest:
+            largest = n
 
-    for i in range(1, len(nums)+2):
+    for i in range(smallest, largest+1):
         if i not in missing:
-            return i
+            answer.append(i)
 
-    return None
+    return answer
 
 
 result = get_missing_numbers(numbers)
