@@ -3,15 +3,19 @@
 nums = [1, 2, 3, 4]
 
 def product_except_self(nums):
-    product = []
+    n = len(nums)
 
-    for i in range(len(nums)):
-        current = 1
-        for j in range(len(nums)):
-            if i != j:
-                current *= nums[j]
+    product = [1]*n
 
-        product.append(current)
+    left = 1
+    for i in range(n):
+        product[i] = left
+        left *= nums[i]
+
+    right = 1
+    for i in range(n -1, -1, -1): # range(start, stop, step)
+        product[i] *= right
+        right *= nums[i]
 
     return product
 

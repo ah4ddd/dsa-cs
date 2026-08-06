@@ -19,12 +19,17 @@ print(result2)
 
 # Revisiting Challenge 16
 def is_palindrome_text(text):
+    clean = ""
+    for char in text:
+        if char.isalnum():
+            clean += char.lower()
+
     for i in range(len(text) //2):
-        if text[i] != text[-(i+1)]:
+        if clean[i] != clean[-(i+1)]:
             return False
 
     return True
 
 
-r = is_palindrome_text("racecar")
+r = is_palindrome_text("race car")
 print(r)
