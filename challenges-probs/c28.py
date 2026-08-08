@@ -1,3 +1,5 @@
+# Challenge 28 ~ Encode and Decode Strings
+
 words = ["hello", "world", "python"]
 
 def encode(words):
