@@ -5,6 +5,9 @@
 # If the next element is bigger, treat the current one as negative.
 # Otherwise, treat it as positive. Sum everything
 
+# The algorithm's entire job is deciding:
+# Should this number get a + sign or a - sign?
+
 s = "MCMIV"
 
 def roman_to_int(s):
