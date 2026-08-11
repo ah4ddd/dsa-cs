@@ -1,33 +1,24 @@
-# C31 -- Integer to Roman
+# C31 — Stone Game IV
 
-def intToRoman(num: int):
-    integers = {
-            1000: "M",
-            900: "CM",
-            500: "D",
-            400: "CD",
-            100: "C",
-            90: "XC",
-            50: "L",
-            40: "XL",
-            10: "X",
-            9: "IX",
-            5: "V",
-            4: "IV",
-            1: "I"
-            }
+def winner_square_game(n):
+    dp = [False]*(n+1)
 
-    roman = ""
+    for stone in range(1, n+1):
 
-    for v, s in integers.items():
-        while num >= v:
-            roman += s
-            num -= v
+        square = 1
 
-    return roman
+        while square <= stone:
 
+            remaining = stone - square * square
 
-r = intToRoman(3450)
+            if dp[remaining] == False:
+                dp[stone] = True
+                break
 
-print(r)
+            square+=1
 
+    return dp[n]
+
+n = 8
+result = winner_square_game(n)
+print(result)
