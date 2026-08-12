@@ -38,3 +38,26 @@ board = [
 
 result = is_valid_sudoku(board)
 print(result)
+
+
+                    """
+
+                    CELL
+                     │
+                     ↓
+              ┌──────┼──────┐
+              ↓      ↓      ↓
+            ROW    COLUMN   BOX
+              │      │      │
+              ↓      ↓      ↓
+             SET    SET     SET
+              │      │      │
+              └──────┼──────┘
+                     ↓
+              duplicate?
+               /        \
+             YES         NO
+              ↓           ↓
+           FALSE       add to sets
+
+                   """
