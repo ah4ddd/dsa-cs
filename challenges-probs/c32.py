@@ -40,8 +40,7 @@ result = is_valid_sudoku(board)
 print(result)
 
 
-                    """
-
+"""
                     CELL
                      │
                      ↓
@@ -59,5 +58,45 @@ print(result)
              YES         NO
               ↓           ↓
            FALSE       add to sets
+"""
 
-                   """
+
+# SOL 2
+def is_valid_sudoku_(board):
+    rows = [set() for _ in range(9)]
+    cols = [set() for _ in range(9)]
+    squares = [set() for _ in range(9)]
+
+    for r in range(9):
+        for c in range(9):
+
+            if board[r][c] == ".":
+                continue
+
+            num = board[r][c]
+
+            square = (r // 3) * 3 + (c // 3)
+
+            if num in rows[r] or num in cols[c] or num in squares[square]:
+                return False
+
+            rows[r].add(num)
+            cols[c].add(num)
+            squares[square].add(num)
+
+    return True
+
+
+# SOL
+def valid_sudoku(board):
+    for r in range(9):
+        seen = set()
+
+        for c in range(9):
+            if board[r][c] == ".":
+                continue
+
+            if board[r][c] in seen:
+                return False
+
+            seen.add(board[r][c])
