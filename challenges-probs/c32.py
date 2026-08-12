@@ -87,16 +87,50 @@ def is_valid_sudoku_(board):
     return True
 
 
-# SOL
-def valid_sudoku(board):
-    for r in range(9):
-        seen = set()
+# BRUTE FORCE
+class Solution:
+    def isValidSudoku(self, board):
 
+        # Check rows
+        for r in range(9):
+            seen = set()
+
+            for c in range(9):
+                if board[r][c] == ".":
+                    continue
+
+                if board[r][c] in seen:
+                    return False
+
+                seen.add(board[r][c])
+
+        # Check columns
         for c in range(9):
-            if board[r][c] == ".":
-                continue
+            seen = set()
 
-            if board[r][c] in seen:
-                return False
+            for r in range(9):
+                if board[r][c] == ".":
+                    continue
 
-            seen.add(board[r][c])
+                if board[r][c] in seen:
+                    return False
+
+                seen.add(board[r][c])
+
+        # Check 3x3 squares
+        for box_row in range(3):
+            for box_col in range(3):
+                seen = set()
+
+                for r in range(box_row * 3, box_row * 3 + 3):
+                    for c in range(box_col * 3, box_col * 3 + 3):
+
+                        if board[r][c] == ".":
+                            continue
+
+                        if board[r][c] in seen:
+                            return False
+
+                        seen.add(board[r][c])
+
+        return True
