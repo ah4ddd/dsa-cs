@@ -1,27 +1,30 @@
-# BASE EXAMPLE
-# Fixed-Size Window (The Box Never Changes Size)
+# Fixed Sliding Window
+# You have a box locked at a size of 3.
+# As you traverse (move forward), you step exactly one number ahead.
+# You leave one number behind out the back of the box.
+# You output the sum of the specific numbers currently trapped
+# inside your box at that exact moment.
+
 
 # Our array of ordered numbers
-nums = [10, 20, 30, 40]
+nums = [10, 20, 30, 40, 60, 70]
+K = 3  # The fixed size of our window
 
-print("--- RUNNING FIXED-SIZE WINDOW ---")
+print("--- RUNNING FIXED-SIZE WINDOW WITH A LOOP ---")
 
-# --- POSITION 1 (Indices 0, 1, 2) ---
-left = 0
-right = 2
-window = nums[left : right + 1]  # Slices indices 0, 1, 2 -> [10, 20, 30]
-window_sum = 10 + 20 + 30
+# 1. Position 1: Calculate the very first window slice dynamically
+current_sum = sum(nums[:K])  # 10 + 20 + 30 = 60
+print(f"Window: {nums[:K]} | Sum: {current_sum}")
 
-print(f"Window: {window} | Size: {right - left + 1} | Sum: {window_sum}")
+# 2. Position 2 onwards: The loop automatically slides the window right
+# 'right' starts at index 3 (the number 40) and goes to the end
+for right in range(K, len(nums)):
+    outgoing_item = nums[right - K]  # Dynamically finds the item leaving the back
+    incoming_item = nums[right]      # Dynamically finds the item entering the front
 
+    # The shortcut math updates the window total instantly
+    current_sum = current_sum - outgoing_item + incoming_item
 
-# --- POSITION 2 (Slide Right by 1 Step) ---
-# To slide a fixed window, BOTH pointers move forward by 1
-left = 1
-right = 3
-window = nums[left : right + 1]  # Slices indices 1, 2, 3 -> [20, 30, 40]
-
-# Shortcut math: drop the old item (nums[0]), add the new item (nums[3])
-window_sum = window_sum - nums[0] + nums[3]  # 60 - 10 + 40 = 90
-
-print(f"Window: {window} | Size: {right - left + 1} | Sum: {window_sum}")
+    # Dynamic slice calculation to print the current box
+    current_box_slice = nums[right - K + 1 : right + 1]
+    print(f"Window: {current_box_slice} | Sum: {current_sum}")
