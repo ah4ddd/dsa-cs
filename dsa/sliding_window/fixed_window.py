@@ -7,7 +7,7 @@ def max_sales_of_three_months(sales, K):
     # 1. Calculate the first box manually (Jan + Feb + Mar)
     current_sum = sales[0] + sales[1] + sales[2]  # 10 + 20 + 30 = 60
     max_sum = current_sum
-    print(f"Starting Box [10, 20, 30] Sum: {current_sum}")
+    print(f"Starting Box {sales[:K]} Sum: {current_sum}")
 
     # 2. Slide the box using a loop
     for i in range(K, len(sales)):
