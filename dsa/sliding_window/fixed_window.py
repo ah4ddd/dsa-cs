@@ -29,5 +29,3 @@ def max_sales_of_three_months(sales, K):
 sales = [10, 20, 30, 40, 50]
 K = 3  # The box size is strictly 3 items wide
 max_sales_of_three_months(sales, K)
-
-
