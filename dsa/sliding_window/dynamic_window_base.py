@@ -5,33 +5,58 @@
 # the array that adds up to a sum of 7 or more.
 
 # Our array of ordered numbers
+# jargon code
 nums = [2, 3, 1, 4]
+target_sum = 7
 
-print("--- RUNNING VARIABLE-SIZE WINDOW ---")
+print("--- VISUALIZING EVERY SINGLE STEP ---")
 
-# --- STEP 1: Start small ---
 left = 0
-right = 0
-print(f"Window: {nums[left:right+1]} | Size: {right - left + 1} | Sum: 2")
+current_sum = 0
 
-# --- STEP 2: STRETCH the right edge (Size becomes 2) ---
+for right in range(len(nums)):
+    # 1. EXPAND STEP
+    current_sum += nums[right] # M
+    current_box_slice = nums[left : right + 1]
+    current_window_size = right - left + 1
+
+    print(f"EXPAND  | Window: {str(current_box_slice):<12} | Size: {current_window_size} | Sum: {current_sum}")
+
+    # 2. SHRINK STEP (Triggers only when sum is 7 or more)
+    while current_sum >= target_sum:
+        print(f"  ↳ MATCH HIT! (Sum {current_sum} >= {target_sum}). Shrinking from left...")
+
+        # Subtract the item we are leaving behind
+        current_sum -= nums[left]
+        left += 1  # Pull the back edge forward
+
+        # Calculate and print the newly shrunken window
+        current_box_slice = nums[left : right + 1]
+        current_window_size = right - left + 1
+        print(f"  SHRINK  | Window: {str(current_box_slice):<12} | Size: {current_window_size} | Sum: {current_sum}")
+
+
+# Because a sliding window cannot skip numbers,
+# your box cannot just magically grab the 3 and
+# the 4 while ignoring the 1.
+# It is forced to take the whole continuous chain: [3, 1, 4].
+
+
+# Clean Code
+nums = [2, 3, 1, 4]
+target_sum = 6
+
 left = 0
-right = 1
-print(f"Window: {nums[left:right+1]} | Size: {right - left + 1} | Sum: 5")
+current_sum = 0
+min_length = float('inf')
 
-# --- STEP 3: STRETCH the right edge again (Size becomes 3) ---
-left = 0
-right = 2
-print(f"Window: {nums[left:right+1]} | Size: {right - left + 1} | Sum: 6")
+for right in range(len(nums)):
+    current_sum += nums[right]
 
-# --- STEP 4: STRETCH the right edge again (Size becomes 4) ---
-# The sum becomes 10 (2 + 3 + 1 + 4), which hits our target of 7!
-left = 0
-right = 3
-print(f"Window: {nums[left:right+1]} | Size: {right - left + 1} | Sum: 10")
+    while current_sum >= target_sum:
+        min_length = min(min_length, right - left + 1)
+        current_sum -= nums[left]
+        left += 1
 
-# --- STEP 5: SHRINK the left edge forward (Size drops to 3) ---
-# Since the sum is 10 (plenty big), we move 'left' up to make the box smaller.
-left = 1
-right = 3
-print(f"Window: {nums[left:right+1]} | Size: {right - left + 1} | Sum: 8")
+print(f"Shortest Window Size Found: {min_length}")
+
