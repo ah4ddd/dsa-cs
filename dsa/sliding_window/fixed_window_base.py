@@ -1,4 +1,6 @@
 # BASE EXAMPLE
+# Fixed-Size Window (The Box Never Changes Size)
+
 # Our array of ordered numbers
 nums = [10, 20, 30, 40]
 

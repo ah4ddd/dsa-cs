@@ -1,8 +1,4 @@
 # MAIN PROBLEM (Dynamic-Size Window (Stretchy Box))
-# The box size changes.
-# It expands to add items and only shrinks when a rule is broken.
-# In this problem, we want to find the shortest part of
-# the array that adds up to a sum of 7 or more.
 def shortest_part_with_sum_seven(nums, target_sum):
     left = 0
     current_sum = 0
