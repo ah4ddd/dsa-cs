@@ -32,6 +32,10 @@ def maximumlengthSubstring(s):
             left += 1
         # Calculate the current window's length,
         # then compare it with the biggest window I've seen so far.
+
+        # Current window length = right - left + 1
+        # +1 because BOTH left and right indexes are included.
+        # right - left gives the distance between them, not the number of elements.
         max_length = max(max_length, right - left + 1)
 
     return max_length
@@ -55,4 +59,8 @@ Start     | -     | -    | ""        | {}                 | 0         | -
 8         | 7     | 'a'  | "bcba"    | {'b': 2, 'c': 1, 'a': 1} | 4   | ✅ MAX!
 
 *Asterisk means the window shrunk due to violation
+
+If I'm tracking the longest variable-length window,
+right-left+1 tells me the current window's length,
+and I compare it with the best length I've seen.
 """
