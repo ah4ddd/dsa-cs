@@ -4,89 +4,32 @@
 
 def longestSubsequence(nums):
 
-    # We will calculate the XOR of ALL numbers in the array.
-    #
-    # Example:
-    # nums = [1, 2, 3]
-    #
-    # total starts at 0:
-    #
-    # 0 XOR 1 = 1
-    # 1 XOR 2 = 3
-    # 3 XOR 3 = 0
-    #
-    # So total eventually becomes the XOR of the entire array.
+    # XOR of the entire array
     total = 0
 
-    # This keeps track of whether the array contains
-    # at least ONE non-zero number.
-    #
-    # Why do we care?
-    #
-    # If every number is 0, then every possible subsequence
-    # has XOR = 0.
-    #
-    # Therefore, there is no valid subsequence at all.
+    # True if at least one non-zero number exists
     has_non_zero = False
 
-    # Go through every number once.
     for n in nums:
 
-        # Since the problem gives us non-negative numbers,
-        # n > 0 means that n is non-zero.
-        #
-        # Once we find one non-zero number, this stays True.
+        # Needed for the case where total XOR is 0
+        # but we can still remove one element
         if n > 0:
             has_non_zero = True
 
-        # XOR the current number into total.
-        #
-        # ^= is shorthand for:
-        #
-        # total = total ^ n
-        #
-        # So we continuously build:
-        #
-        # total = nums[0] XOR nums[1] XOR nums[2] ...
+        # Build the XOR of all numbers
         total ^= n
 
-    # CASE 1:
-    #
-    # The XOR of the ENTIRE array is already non-zero.
-    #
-    # Then we can simply take the entire array as our
-    # subsequence.
-    #
-    # Its XOR is non-zero, so the longest possible
-    # subsequence has length len(nums).
+    # Whole array already has non-zero XOR
     if total != 0:
         return len(nums)
 
-    # CASE 2:
-    #
-    # The XOR of the entire array is 0.
-    #
-    # But we know there is at least one non-zero number.
-    #
-    # If we remove ONE carefully chosen element, the XOR
-    # of the remaining elements becomes non-zero.
-    #
-    # Therefore we can take n - 1 elements.
+    # Whole XOR is 0, but a non-zero number exists
+    # → remove one element
     elif has_non_zero:
         return len(nums) - 1
 
-    # CASE 3:
-    #
-    # The entire XOR is 0 AND there isn't even a
-    # non-zero number.
-    #
-    # Since all numbers are 0, the array looks like:
-    #
-    # [0, 0, 0, ...]
-    #
-    # XOR of any subsequence is still 0.
-    #
-    # Therefore, no valid subsequence exists.
+    # All numbers are 0 → every subsequence has XOR 0
     else:
         return 0
 
