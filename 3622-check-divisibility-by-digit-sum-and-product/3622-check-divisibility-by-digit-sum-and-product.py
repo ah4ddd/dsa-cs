@@ -2,25 +2,12 @@ class Solution:
     def checkDivisibility(self, n: int) -> bool:
         nums = str(n)
         sums = 0
-        product = int(nums[0])
+        product = 1
 
         for s in nums:
-            sums += int(s)
-        for i in range(1, len(nums)):
-            product *= int(nums[i])
+            digit = int(s)
+            sums += digit
+            product *= digit
 
         target = sums + product
-
-        if n % target == 0:
-            return True
-            
-        return False 
-
-
-
-            
-            
-
-
-
-        
+        return n % target == 0
