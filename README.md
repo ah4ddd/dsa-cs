@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ah4ddd/dsa-cs/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ah4ddd/dsa-cs/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ah4ddd/dsa-cs/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0136-single-number](https://github.com/ah4ddd/dsa-cs/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/ah4ddd/dsa-cs/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/ah4ddd/dsa-cs/tree/master/0189-rotate-array) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/ah4ddd/dsa-cs/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/ah4ddd/dsa-cs/tree/master/0136-single-number) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/ah4ddd/dsa-cs/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 ## Combinatorics
 |  |
