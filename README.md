@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/ah4ddd/dsa-cs/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ah4ddd/dsa-cs/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/ah4ddd/dsa-cs/tree/master/0027-remove-element) |
 | [0055-jump-game](https://github.com/ah4ddd/dsa-cs/tree/master/0055-jump-game) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/ah4ddd/dsa-cs/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/ah4ddd/dsa-cs/tree/master/0169-majority-element) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/ah4ddd/dsa-cs/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Divide and Conquer
