@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/ah4ddd/dsa-cs/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ah4ddd/dsa-cs/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/ah4ddd/dsa-cs/tree/master/0027-remove-element) |
+| [0036-valid-sudoku](https://github.com/ah4ddd/dsa-cs/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/ah4ddd/dsa-cs/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/ah4ddd/dsa-cs/tree/master/0055-jump-game) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ah4ddd/dsa-cs/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ah4ddd/dsa-cs/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/ah4ddd/dsa-cs/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/ah4ddd/dsa-cs/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/ah4ddd/dsa-cs/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/ah4ddd/dsa-cs/tree/master/0347-top-k-frequent-elements) |
@@ -130,4 +132,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ah4ddd/dsa-cs/tree/master/0347-top-k-frequent-elements) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/ah4ddd/dsa-cs/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
