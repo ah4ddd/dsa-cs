@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0189-rotate-array](https://github.com/ah4ddd/dsa-cs/tree/master/0189-rotate-array) |
 | [1872-stone-game-viii](https://github.com/ah4ddd/dsa-cs/tree/master/1872-stone-game-viii) |
+| [1927-sum-game](https://github.com/ah4ddd/dsa-cs/tree/master/1927-sum-game) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/ah4ddd/dsa-cs/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/ah4ddd/dsa-cs/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 ## Binary Search
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ah4ddd/dsa-cs/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [1927-sum-game](https://github.com/ah4ddd/dsa-cs/tree/master/1927-sum-game) |
 ## Minimax
 |  |
 | ------- |
@@ -89,8 +91,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1872-stone-game-viii](https://github.com/ah4ddd/dsa-cs/tree/master/1872-stone-game-viii) |
+| [1927-sum-game](https://github.com/ah4ddd/dsa-cs/tree/master/1927-sum-game) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [1872-stone-game-viii](https://github.com/ah4ddd/dsa-cs/tree/master/1872-stone-game-viii) |
+## String
+|  |
+| ------- |
+| [1927-sum-game](https://github.com/ah4ddd/dsa-cs/tree/master/1927-sum-game) |
 <!---LeetCode Topics End-->
