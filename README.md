@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/ah4ddd/dsa-cs/tree/master/0027-remove-element) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ah4ddd/dsa-cs/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0189-rotate-array](https://github.com/ah4ddd/dsa-cs/tree/master/0189-rotate-array) |
+| [0876-middle-of-the-linked-list](https://github.com/ah4ddd/dsa-cs/tree/master/0876-middle-of-the-linked-list) |
 ## Hash Table
 |  |
 | ------- |
@@ -159,4 +160,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0412-fizz-buzz](https://github.com/ah4ddd/dsa-cs/tree/master/0412-fizz-buzz) |
+## Linked List
+|  |
+| ------- |
+| [0876-middle-of-the-linked-list](https://github.com/ah4ddd/dsa-cs/tree/master/0876-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
