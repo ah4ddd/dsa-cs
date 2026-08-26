@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ah4ddd/dsa-cs/tree/master/0347-top-k-frequent-elements) |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/ah4ddd/dsa-cs/tree/master/0747-largest-number-at-least-twice-of-others) |
 | [1480-running-sum-of-1d-array](https://github.com/ah4ddd/dsa-cs/tree/master/1480-running-sum-of-1d-array) |
+| [1672-richest-customer-wealth](https://github.com/ah4ddd/dsa-cs/tree/master/1672-richest-customer-wealth) |
 | [1872-stone-game-viii](https://github.com/ah4ddd/dsa-cs/tree/master/1872-stone-game-viii) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/ah4ddd/dsa-cs/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/ah4ddd/dsa-cs/tree/master/3718-smallest-missing-multiple-of-k) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/ah4ddd/dsa-cs/tree/master/0036-valid-sudoku) |
+| [1672-richest-customer-wealth](https://github.com/ah4ddd/dsa-cs/tree/master/1672-richest-customer-wealth) |
 ## Union-Find
 |  |
 | ------- |
