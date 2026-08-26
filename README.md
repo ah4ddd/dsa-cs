@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0189-rotate-array](https://github.com/ah4ddd/dsa-cs/tree/master/0189-rotate-array) |
 | [0412-fizz-buzz](https://github.com/ah4ddd/dsa-cs/tree/master/0412-fizz-buzz) |
+| [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/ah4ddd/dsa-cs/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
 | [1872-stone-game-viii](https://github.com/ah4ddd/dsa-cs/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/ah4ddd/dsa-cs/tree/master/1927-sum-game) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/ah4ddd/dsa-cs/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/ah4ddd/dsa-cs/tree/master/0136-single-number) |
+| [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/ah4ddd/dsa-cs/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/ah4ddd/dsa-cs/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 ## Combinatorics
 |  |
