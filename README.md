@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ah4ddd/dsa-cs/tree/master/0347-top-k-frequent-elements) |
 | [0704-binary-search](https://github.com/ah4ddd/dsa-cs/tree/master/0704-binary-search) |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/ah4ddd/dsa-cs/tree/master/0747-largest-number-at-least-twice-of-others) |
+| [0941-valid-mountain-array](https://github.com/ah4ddd/dsa-cs/tree/master/0941-valid-mountain-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/ah4ddd/dsa-cs/tree/master/0977-squares-of-a-sorted-array) |
 | [1480-running-sum-of-1d-array](https://github.com/ah4ddd/dsa-cs/tree/master/1480-running-sum-of-1d-array) |
 | [1672-richest-customer-wealth](https://github.com/ah4ddd/dsa-cs/tree/master/1672-richest-customer-wealth) |
