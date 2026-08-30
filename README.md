@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/ah4ddd/dsa-cs/tree/master/1480-running-sum-of-1d-array) |
 | [1672-richest-customer-wealth](https://github.com/ah4ddd/dsa-cs/tree/master/1672-richest-customer-wealth) |
 | [1872-stone-game-viii](https://github.com/ah4ddd/dsa-cs/tree/master/1872-stone-game-viii) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/ah4ddd/dsa-cs/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/ah4ddd/dsa-cs/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/ah4ddd/dsa-cs/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Math
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/ah4ddd/dsa-cs/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ah4ddd/dsa-cs/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [1927-sum-game](https://github.com/ah4ddd/dsa-cs/tree/master/1927-sum-game) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/ah4ddd/dsa-cs/tree/master/2091-removing-minimum-and-maximum-from-array) |
 ## Minimax
 |  |
 | ------- |
