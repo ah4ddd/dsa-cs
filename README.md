@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/ah4ddd/dsa-cs/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/ah4ddd/dsa-cs/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/ah4ddd/dsa-cs/tree/master/0347-top-k-frequent-elements) |
+| [0414-third-maximum-number](https://github.com/ah4ddd/dsa-cs/tree/master/0414-third-maximum-number) |
 | [0704-binary-search](https://github.com/ah4ddd/dsa-cs/tree/master/0704-binary-search) |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/ah4ddd/dsa-cs/tree/master/0747-largest-number-at-least-twice-of-others) |
 | [0941-valid-mountain-array](https://github.com/ah4ddd/dsa-cs/tree/master/0941-valid-mountain-array) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/ah4ddd/dsa-cs/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/ah4ddd/dsa-cs/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/ah4ddd/dsa-cs/tree/master/0347-top-k-frequent-elements) |
+| [0414-third-maximum-number](https://github.com/ah4ddd/dsa-cs/tree/master/0414-third-maximum-number) |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/ah4ddd/dsa-cs/tree/master/0747-largest-number-at-least-twice-of-others) |
 | [0977-squares-of-a-sorted-array](https://github.com/ah4ddd/dsa-cs/tree/master/0977-squares-of-a-sorted-array) |
 | [1051-height-checker](https://github.com/ah4ddd/dsa-cs/tree/master/1051-height-checker) |
