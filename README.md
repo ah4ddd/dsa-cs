@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-largest-number-at-least-twice-of-others](https://github.com/ah4ddd/dsa-cs/tree/master/0747-largest-number-at-least-twice-of-others) |
 | [0941-valid-mountain-array](https://github.com/ah4ddd/dsa-cs/tree/master/0941-valid-mountain-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/ah4ddd/dsa-cs/tree/master/0977-squares-of-a-sorted-array) |
+| [1051-height-checker](https://github.com/ah4ddd/dsa-cs/tree/master/1051-height-checker) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/ah4ddd/dsa-cs/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/ah4ddd/dsa-cs/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1480-running-sum-of-1d-array](https://github.com/ah4ddd/dsa-cs/tree/master/1480-running-sum-of-1d-array) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ah4ddd/dsa-cs/tree/master/0347-top-k-frequent-elements) |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/ah4ddd/dsa-cs/tree/master/0747-largest-number-at-least-twice-of-others) |
 | [0977-squares-of-a-sorted-array](https://github.com/ah4ddd/dsa-cs/tree/master/0977-squares-of-a-sorted-array) |
+| [1051-height-checker](https://github.com/ah4ddd/dsa-cs/tree/master/1051-height-checker) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/ah4ddd/dsa-cs/tree/master/1346-check-if-n-and-its-double-exist) |
 ## Counting
 |  |
@@ -184,4 +186,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0876-middle-of-the-linked-list](https://github.com/ah4ddd/dsa-cs/tree/master/0876-middle-of-the-linked-list) |
+## Counting Sort
+|  |
+| ------- |
+| [1051-height-checker](https://github.com/ah4ddd/dsa-cs/tree/master/1051-height-checker) |
+## Bubble Sort
+|  |
+| ------- |
+| [1051-height-checker](https://github.com/ah4ddd/dsa-cs/tree/master/1051-height-checker) |
 <!---LeetCode Topics End-->
