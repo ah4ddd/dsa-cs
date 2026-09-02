@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0414-third-maximum-number](https://github.com/ah4ddd/dsa-cs/tree/master/0414-third-maximum-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ah4ddd/dsa-cs/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0704-binary-search](https://github.com/ah4ddd/dsa-cs/tree/master/0704-binary-search) |
+| [0724-find-pivot-index](https://github.com/ah4ddd/dsa-cs/tree/master/0724-find-pivot-index) |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/ah4ddd/dsa-cs/tree/master/0747-largest-number-at-least-twice-of-others) |
 | [0941-valid-mountain-array](https://github.com/ah4ddd/dsa-cs/tree/master/0941-valid-mountain-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/ah4ddd/dsa-cs/tree/master/0977-squares-of-a-sorted-array) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/ah4ddd/dsa-cs/tree/master/0238-product-of-array-except-self) |
+| [0724-find-pivot-index](https://github.com/ah4ddd/dsa-cs/tree/master/0724-find-pivot-index) |
 | [1480-running-sum-of-1d-array](https://github.com/ah4ddd/dsa-cs/tree/master/1480-running-sum-of-1d-array) |
 | [1872-stone-game-viii](https://github.com/ah4ddd/dsa-cs/tree/master/1872-stone-game-viii) |
 ## Game Theory
