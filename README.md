@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ah4ddd/dsa-cs/tree/master/0347-top-k-frequent-elements) |
 | [0414-third-maximum-number](https://github.com/ah4ddd/dsa-cs/tree/master/0414-third-maximum-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ah4ddd/dsa-cs/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0498-diagonal-traverse](https://github.com/ah4ddd/dsa-cs/tree/master/0498-diagonal-traverse) |
 | [0704-binary-search](https://github.com/ah4ddd/dsa-cs/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/ah4ddd/dsa-cs/tree/master/0724-find-pivot-index) |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/ah4ddd/dsa-cs/tree/master/0747-largest-number-at-least-twice-of-others) |
@@ -177,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/ah4ddd/dsa-cs/tree/master/0036-valid-sudoku) |
+| [0498-diagonal-traverse](https://github.com/ah4ddd/dsa-cs/tree/master/0498-diagonal-traverse) |
 | [1672-richest-customer-wealth](https://github.com/ah4ddd/dsa-cs/tree/master/1672-richest-customer-wealth) |
 ## Union-Find
 |  |
@@ -190,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0412-fizz-buzz](https://github.com/ah4ddd/dsa-cs/tree/master/0412-fizz-buzz) |
+| [0498-diagonal-traverse](https://github.com/ah4ddd/dsa-cs/tree/master/0498-diagonal-traverse) |
 ## Linked List
 |  |
 | ------- |
