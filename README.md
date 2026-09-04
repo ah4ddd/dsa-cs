@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/ah4ddd/dsa-cs/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/ah4ddd/dsa-cs/tree/master/0055-jump-game) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ah4ddd/dsa-cs/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0118-pascals-triangle](https://github.com/ah4ddd/dsa-cs/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ah4ddd/dsa-cs/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ah4ddd/dsa-cs/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/ah4ddd/dsa-cs/tree/master/0128-longest-consecutive-sequence) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/ah4ddd/dsa-cs/tree/master/0055-jump-game) |
+| [0118-pascals-triangle](https://github.com/ah4ddd/dsa-cs/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ah4ddd/dsa-cs/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ah4ddd/dsa-cs/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [1872-stone-game-viii](https://github.com/ah4ddd/dsa-cs/tree/master/1872-stone-game-viii) |
