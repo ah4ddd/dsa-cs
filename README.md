@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/ah4ddd/dsa-cs/tree/master/0067-add-binary) |
 | [0189-rotate-array](https://github.com/ah4ddd/dsa-cs/tree/master/0189-rotate-array) |
 | [0412-fizz-buzz](https://github.com/ah4ddd/dsa-cs/tree/master/0412-fizz-buzz) |
 | [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/ah4ddd/dsa-cs/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/ah4ddd/dsa-cs/tree/master/0067-add-binary) |
 | [0136-single-number](https://github.com/ah4ddd/dsa-cs/tree/master/0136-single-number) |
 | [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/ah4ddd/dsa-cs/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/ah4ddd/dsa-cs/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/ah4ddd/dsa-cs/tree/master/0049-group-anagrams) |
+| [0067-add-binary](https://github.com/ah4ddd/dsa-cs/tree/master/0067-add-binary) |
 | [0383-ransom-note](https://github.com/ah4ddd/dsa-cs/tree/master/0383-ransom-note) |
 | [0412-fizz-buzz](https://github.com/ah4ddd/dsa-cs/tree/master/0412-fizz-buzz) |
 | [1927-sum-game](https://github.com/ah4ddd/dsa-cs/tree/master/1927-sum-game) |
@@ -196,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/ah4ddd/dsa-cs/tree/master/0054-spiral-matrix) |
+| [0067-add-binary](https://github.com/ah4ddd/dsa-cs/tree/master/0067-add-binary) |
 | [0412-fizz-buzz](https://github.com/ah4ddd/dsa-cs/tree/master/0412-fizz-buzz) |
 | [0498-diagonal-traverse](https://github.com/ah4ddd/dsa-cs/tree/master/0498-diagonal-traverse) |
 ## Linked List
