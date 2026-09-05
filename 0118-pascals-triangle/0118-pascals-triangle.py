@@ -2,17 +2,16 @@ class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         result = []
 
-        for i in range(numRows):
-            row = [1] # L1
+        for _ in range(numRows):
+            row = [1]
 
             if result:
-                previous = result[-1] 
+                prev = result[-1]
 
-                for j in range(len(previous) - 1):
-                    # The engine
-                    row.append(previous[j] + previous[j + 1])
+                for j in range(len(prev)-1):
+                    row.append(prev[j]+prev[j+1])
 
-                row.append(1) # R1
+                row.append(1)
 
             result.append(row)
 
