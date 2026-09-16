@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ah4ddd/dsa-cs/tree/master/0347-top-k-frequent-elements) |
 | [0414-third-maximum-number](https://github.com/ah4ddd/dsa-cs/tree/master/0414-third-maximum-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ah4ddd/dsa-cs/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0485-max-consecutive-ones](https://github.com/ah4ddd/dsa-cs/tree/master/0485-max-consecutive-ones) |
 | [0498-diagonal-traverse](https://github.com/ah4ddd/dsa-cs/tree/master/0498-diagonal-traverse) |
 | [0704-binary-search](https://github.com/ah4ddd/dsa-cs/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/ah4ddd/dsa-cs/tree/master/0724-find-pivot-index) |
