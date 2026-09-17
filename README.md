@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/ah4ddd/dsa-cs/tree/master/1480-running-sum-of-1d-array) |
 | [1672-richest-customer-wealth](https://github.com/ah4ddd/dsa-cs/tree/master/1672-richest-customer-wealth) |
 | [1872-stone-game-viii](https://github.com/ah4ddd/dsa-cs/tree/master/1872-stone-game-viii) |
+| [1929-concatenation-of-array](https://github.com/ah4ddd/dsa-cs/tree/master/1929-concatenation-of-array) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/ah4ddd/dsa-cs/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/ah4ddd/dsa-cs/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/ah4ddd/dsa-cs/tree/master/3718-smallest-missing-multiple-of-k) |
@@ -215,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/ah4ddd/dsa-cs/tree/master/0067-add-binary) |
 | [0412-fizz-buzz](https://github.com/ah4ddd/dsa-cs/tree/master/0412-fizz-buzz) |
 | [0498-diagonal-traverse](https://github.com/ah4ddd/dsa-cs/tree/master/0498-diagonal-traverse) |
+| [1929-concatenation-of-array](https://github.com/ah4ddd/dsa-cs/tree/master/1929-concatenation-of-array) |
 ## Linked List
 |  |
 | ------- |
