@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ah4ddd/dsa-cs/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/ah4ddd/dsa-cs/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/ah4ddd/dsa-cs/tree/master/0189-rotate-array) |
+| [0217-contains-duplicate](https://github.com/ah4ddd/dsa-cs/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/ah4ddd/dsa-cs/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/ah4ddd/dsa-cs/tree/master/0347-top-k-frequent-elements) |
 | [0414-third-maximum-number](https://github.com/ah4ddd/dsa-cs/tree/master/0414-third-maximum-number) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/ah4ddd/dsa-cs/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/ah4ddd/dsa-cs/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/ah4ddd/dsa-cs/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/ah4ddd/dsa-cs/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/ah4ddd/dsa-cs/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/ah4ddd/dsa-cs/tree/master/0383-ransom-note) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ah4ddd/dsa-cs/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -119,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/ah4ddd/dsa-cs/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/ah4ddd/dsa-cs/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/ah4ddd/dsa-cs/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/ah4ddd/dsa-cs/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/ah4ddd/dsa-cs/tree/master/0347-top-k-frequent-elements) |
 | [0414-third-maximum-number](https://github.com/ah4ddd/dsa-cs/tree/master/0414-third-maximum-number) |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/ah4ddd/dsa-cs/tree/master/0747-largest-number-at-least-twice-of-others) |
