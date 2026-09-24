@@ -14,4 +14,3 @@ class Solution:
             right *= nums[j]
 
         return product
-
